@@ -1,0 +1,25 @@
+{
+    "elements": [
+        {
+            "title": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "cover": "https://covers.openlibrary.org/b/id/13820210-L.jpg",
+            "pages": 1168,
+            "description": "Originally published from 1954 through 1956, J.R.R. Tolkien's richly complex series ushered in a new age of epic adventure storytelling. A philologist and illustrator who took inspiration from his work, Tolkien invented the modern heroic quest novel from the ground up, creating not just a world, but a domain, not just a lexicon, but a language, that would spawn countless imitators and lead to the inception of the epic fantasy genre."
+        },
+        {
+            "title": "Good Omens",
+            "author": "Terry Pratchett",
+            "cover": "https://covers.openlibrary.org/b/id/8740268-L.jpg",
+            "pages": 608,
+            "description": "Armageddon only happens once, you know. They don't let you go around again until you get it right."
+        },
+        {
+            "title": "Ancillary Justice",
+            "author": "Ann Leckie",
+            "cover": "https://covers.openlibrary.org/b/id/11930071-L.jpg",
+            "pages": 422,
+            "description": "On a remote, icy planet, the soldier known as Breq is drawing closer to completing her quest."
+        }
+    ]
+}
