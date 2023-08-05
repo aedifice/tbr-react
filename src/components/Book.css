@@ -1,0 +1,45 @@
+.book-list {
+    margin: 5vh;
+}
+
+.book-list-drag {
+    /* if book-list ends up having more styling, reformat how the drag bg is handled */
+    margin: 5vh;
+    background-color: rgb(236, 236, 236);
+}
+
+.book-item {
+    outline: auto;
+    outline-color: rgb(67, 103, 168);
+    margin-bottom: 2vh;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    
+}
+
+.book-item:hover {
+    background-color: rgb(240, 255, 255);
+    transform: translateY(-5px) translateX(-2px);
+    filter: drop-shadow(5px 5px 5px darkgray);
+}
+
+.position {
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.cover-img {
+    height: 100px;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.description {
+    padding-top: 2px;
+}
