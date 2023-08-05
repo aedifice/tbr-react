@@ -1,13 +1,26 @@
 import './Book.css'
 
-// eventually allow books to be dragged and dropped to reorder items in the list
+// use data from OpenLibrary to populate book objects
 function Book(props) {
     const book = props.book;
 
+    function dragStartHandler() {
+        props.onBookDrag();
+    }
+
+    function dragEndHandler(event) {
+        props.onReorder(props.position, event.clientY);
+    }
+
     return (
-        <div className='book-item'>
+        <div className='book-item' 
+            draggable 
+            onDragStart={dragStartHandler}
+            onDragEnd={dragEndHandler}
+        >
             <span className='position'>#{props.position}</span>
             <img className='cover-img'
+                draggable='false'
                 src={book.cover} 
                 alt={book.title} 
             />
