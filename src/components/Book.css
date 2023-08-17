@@ -2,9 +2,7 @@
     margin: 5vh;
 }
 
-.book-list-drag {
-    /* if book-list ends up having more styling, reformat how the drag bg is handled */
-    margin: 5vh;
+.book-list.drag {
     background-color: rgb(236, 236, 236);
 }
 

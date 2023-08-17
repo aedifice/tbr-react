@@ -5,17 +5,17 @@ import { useState, useRef } from "react";
 function BookList(props) {
     // save the list of books as a state to track
     const [books, setBooks] = useState(props.books);
-    const [style, setStyle] = useState("book-list");
+    const [isDragging, setIsDragging] = useState(false);
     let bookListRef = useRef(null);
 
     function bookDragHandler() {
-        setStyle("book-list-drag");
+        setIsDragging(true);
     }
 
     function reorderHandler(bookNumber, yPosition) {
         // use the book list reference to get a list of its book children
         const childList = Array.from(bookListRef.current.children);
-        setStyle("book-list");
+        setIsDragging(false);
         
         for (let i = 0; i < childList.length; i++) {
             // find the midpoint of each child element
@@ -54,7 +54,8 @@ function BookList(props) {
     }
 
     return (
-        <div className={style} ref={bookListRef}>
+        // also set the drag class if the user is currently in drag and drop mode
+        <div className={`book-list ${isDragging ? "drag" : ""}`} ref={bookListRef}>
             {books.map((book, index) => 
                 (<Book 
                     key={book.id}
