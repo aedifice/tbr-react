@@ -12,6 +12,10 @@ function Book(props) {
         props.onReorder(props.position, event.clientY);
     }
 
+    function deleteHandler() {
+        props.onDelete(props.position);
+    }
+
     return (
         <div className='book-item' 
             draggable 
@@ -28,6 +32,7 @@ function Book(props) {
                 <span className='title'>{book.title}</span>
                 <div className='description'>{book.description}</div>
             </span>
+            <span className='delete-btn' onClick={deleteHandler}>X</span>
         </div>
     );
 }

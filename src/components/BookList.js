@@ -53,6 +53,14 @@ function BookList(props) {
         });
     }
 
+    function deleteHandler(bookNumber) {
+        setBooks((prevBooks) => {
+            let newBookList = [...prevBooks];
+            newBookList.splice(bookNumber-1, 1);
+            return newBookList;
+        });
+    }
+
     return (
         // also set the drag class if the user is currently in drag and drop mode
         <div className={`book-list ${isDragging ? "drag" : ""}`} ref={bookListRef}>
@@ -63,6 +71,7 @@ function BookList(props) {
                     book={book} 
                     onBookDrag={bookDragHandler}
                     onReorder={reorderHandler} 
+                    onDelete={deleteHandler}
                 />)
             )}
         </div>
