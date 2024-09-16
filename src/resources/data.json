@@ -1,28 +1,36 @@
 {
     "elements": [
         {
-            "id": "OL7603874M",
-            "title": "The Lord of the Rings",
+            "id": "48034344",
+            "title": "The Fellowship of the Ring",
             "author": "J.R.R. Tolkien",
-            "cover": "https://covers.openlibrary.org/b/id/13820210-L.jpg",
-            "pages": 1168,
+            "cover": "https://coverart.oclc.org/ImageWebSvc/oclc/+-+99898539_140.jpg",
+            "pages": 423,
             "description": "Originally published from 1954 through 1956, J.R.R. Tolkien's richly complex series ushered in a new age of epic adventure storytelling. A philologist and illustrator who took inspiration from his work, Tolkien invented the modern heroic quest novel from the ground up, creating not just a world, but a domain, not just a lexicon, but a language, that would spawn countless imitators and lead to the inception of the epic fantasy genre."
         },
         {
-            "id": "OL27102096M",
-            "title": "Good Omens",
+            "id": "894682840",
+            "title": "Going Postal",
             "author": "Terry Pratchett",
-            "cover": "https://covers.openlibrary.org/b/id/8740268-L.jpg",
-            "pages": 608,
-            "description": "Armageddon only happens once, you know. They don't let you go around again until you get it right."
+            "cover": "https://coverart.oclc.org/ImageWebSvc/oclc/+-+593731943_140.jpg",
+            "pages": 471,
+            "description": "Arch-swindler Moist Van Lipwig never believed his confidence crimes were hanging offenses-until he found himself with a noose tightly around his neck, dropping through a trapdoor, and falling into-a government job?"
         },
         {
-            "id": "OL17062644W",
+            "id": "828142663",
             "title": "Ancillary Justice",
             "author": "Ann Leckie",
-            "cover": "https://covers.openlibrary.org/b/id/11930071-L.jpg",
+            "cover": "https://coverart.oclc.org/ImageWebSvc/oclc/+-+811796373_140.jpg",
             "pages": 422,
             "description": "On a remote, icy planet, the soldier known as Breq is drawing closer to completing her quest."
+        },
+        {
+            "id": "1031915717",
+            "title": "A Memory Called Empire",
+            "author": "Arkady Martine",
+            "cover": "https://coverart.oclc.org/ImageWebSvc/oclc/+-+2620646856_140.jpg",
+            "pages": 462,
+            "description": "During a time of political instability in the highest echelons of the imperial court, Ambassador Mahit Dzmare arrives in the center of the multi-system Teixcalaanli Empire only to discover that her predecessor, the previous ambassador from their small but fiercely independent mining Station, has died."
         }
     ]
 }
